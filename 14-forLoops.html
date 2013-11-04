@@ -14,7 +14,7 @@
             // last, define forward increments
 
             // ++i will increment the value of i, and then return the incremented value.
-            for (i = 0; i < 10; ++i) {
+            for (i = 0; i < 11; ++i) {
                 document.write(i + '</br>');
             }
 
@@ -22,10 +22,17 @@
 
 
             // i++ will increment the value of i, but return the original value that i held before being incremented.
-            for (i = 0; i < 10; i+=3) {
+            for (i = 0; i < 50; i+=3) {
                 document.write(i + '</br>');
             }
 
+            document.write('</br>' + 'this is a break' + '</br>' + '</br>')
+
+            cats=["Tabby","Siamese","Persian","Black"];
+            for (var i=0;i<cats.length;i++)
+            {
+                document.write(cats[i] + "<br>");
+            }
 
 
         </script>

@@ -9,20 +9,20 @@
         <script type="text/javascript">
             // Fun with nesting if/else and comparison operators
 
-            var apple = 20;
-            var orange = 99;
-            var cherry = 99;
+            var apple = 10;
+            var orange = 50;
+            var cherry = 40;
 
             if (apple != orange) {
                 if (orange == cherry) {
                     document.write('I have ' + (orange + cherry) + ' oranges and cherries!');
                 } else {
-                    document.write('I have ' + (apple + orange + cherry) + ' apples, oranges and cherries in my basket');
+                    document.write('I have ' + (apple + orange + cherry) + ' apples, oranges and cherries in my basket!');
                 }
             }
 
             // short hand for nesting complex conditions
-            if ((apple < orange) && (orange == cherry)) {
+            if ((apple < orange) && (orange != cherry)) {
                 document.write('I got fruit!');
             }
 

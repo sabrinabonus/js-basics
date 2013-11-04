@@ -9,15 +9,15 @@
             // Working with custom functions and object properties
 
             // constructor function (or blueprint) for the objects we want to create
-            var person = function (name, age) {
+            var cat = function (name, color) {
                 this.name = name;
-                this.age = age;
+                this.color = color;
             }
 
             // creating an instance of an object
             // the keyword `new` tells JS that we are creating the new instance of a variable.
-            var father = new person("Dale Sande", 40);
-            var daughter = new person("Zoe Sande", 7);
+            var firstCat = new cat("Boots", "brown");
+            var secondCat = new cat("Biscuits", "gray");
         </script>
     </head>
     <body>
@@ -25,8 +25,8 @@
         <script type="text/javascript">
             // Let's call the properties of the objects we created
 
-            document.write("You are " + father.name + " and your age is " + father.age + "<br/>");
-            document.write("You are " + daughter.name + " and your age is " + daughter.age + "<br/>");
+            document.write("You are " + firstCat.name + " and your color is " + firstCat.color + "<br/>");
+            document.write("You are " + secondCat.name + " and your color is " + secondCat.color + "<br/>");
 
         </script>
 

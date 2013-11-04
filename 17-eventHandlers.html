@@ -9,7 +9,7 @@
         Special event handlers that you can only use in the body
     -->
 
-    <body onLoad="alert('You have downloaded the internet')">
+   <!-- <body onLoad="alert('You have downloaded the internet')"> -->
         <!--
             Event Handlers - let's make this interactive
             What's interesting is that this can be placed within the standard HTML
@@ -31,9 +31,13 @@
             Let's get more crazy with event handlers
         -->
 
-        <p onMouseOver="alert('Why you in my space?');"> This is the danger area! </p>
+        <h1 onMouseOver="this.innerHTML='Hello!'" onMouseOut="this.innerHTML='Goodbye!'">Mouse over this!</h1>
 
-        <p onMouseOut="alert('you left my space!')"> This is a vacuum of space</p>
+        <p onClick="alert('Why you in my space?');"> This is the danger area! </p>
+
+        <p onClick="alert('you left my space!')"> This is a vacuum of space</p>
+
+
 
 
     </body>
