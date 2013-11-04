@@ -9,3 +9,6 @@ Excuse the mess, but this is a new project that I hope to continue adding new ex
 Each file is a self contained `html` doc, so you should be able to copy/pull the code and open in any browser and it should work. If you discover any bugs and/or think that I am explaining things incorrectly, please provide feedback and/or submit a pull request. 
 
 Thanks!
+
+#Sabrina Notes
+Skipped exercises: 08, 09, 10, 21, 23, 24, 25
